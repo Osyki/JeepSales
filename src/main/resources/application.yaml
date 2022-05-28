@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: root
+    # password for MySQL database
+    password:
+    url: jdbc:mysql://localhost:3306/jeep
