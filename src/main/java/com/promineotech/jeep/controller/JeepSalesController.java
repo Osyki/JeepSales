@@ -26,7 +26,7 @@ public interface JeepSalesController {
             responses = {
                     @ApiResponse(
                             responseCode = "200",
-                            description = "A list o Jeeps is returned",
+                            description = "A list of Jeeps is returned",
                             content = @Content(
                                     mediaType = "application/json",
                                     schema = @Schema(implementation = Jeep.class))),
